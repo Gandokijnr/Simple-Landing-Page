@@ -1,0 +1,165 @@
+*{
+    font-family:'https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu+Condensed&display=swap';
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+width: 100%;
+}
+
+#get_started{
+    background: #a8eb12;
+
+}
+
+.fold{
+    background: #051937;
+}
+
+main{
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.navbar a{
+    color: white;
+    }
+
+    .navbar a:hover{
+        color: grey;
+    }
+
+
+    .navbar a:active{
+        color: grey;
+    }
+
+#nav_list{
+    margin-left: 20rem;
+}
+
+#main_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+@media (max-width: 799px) {
+    body{
+        max-width: 100%;
+    }
+    
+        #main_content{
+            width: auto;
+            display: block;
+            }
+    
+            .content_image, img{
+               max-width: 100%;
+            }
+    }
+
+
+
+.content-intro{
+    color: #000;
+    font-size: 3rem;
+}
+
+.content_image{
+
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+
+.services_product_list{
+    background: #051937;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* product and services (card) listing css */
+
+#card{
+    font-size: larger;
+    background: #051937;
+    color: #fff;
+     
+}
+
+/* banner section design */
+
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.banner1, .banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 20rem;
+    width: 100%;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 1px dashed;
+    transition: 0.2s ease-in-out;
+
+}
+
+
+
+.banner1
+{   
+    background-image: url("font2-removebg-preview.png");   
+    background-repeat: no-repeat;
+}
+
+
+.banner2
+{
+    background-image: url("font3-removebg-preview.png");   
+    background-repeat: no-repeat;
+}
+
+.banner1 h3, .banner2 h3{
+    font-size: 3rem;
+    color: #fff;
+    padding: 5rem 5rem;
+    border-radius: 50%;
+    transition: .0.1s ease-in-out;
+}
+
+.banner1:hover,
+.banner2:hover{
+    background: #a8eb12;
+    color: black;
+    border-radius: 0%;
+    text-shadow: 12px 12px 20px rgb(12, 116, 55);
+    cursor: pointer;
+}
+
+
+
+/* Banner1 and Banner2 media query */
+
+@media (max-width: 1008px) {
+    
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+}
+
+
+
+
+
